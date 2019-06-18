@@ -19,7 +19,7 @@ variables:
   imgName: '$(containerRegistry)/$(imageRepository):$(tag)'
   
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'Default'
 
 stages:
 - stage: Build
